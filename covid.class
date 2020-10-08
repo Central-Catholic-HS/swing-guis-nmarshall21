@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class GPA
+public class CovidTest
 {
   public static void main(String[] args)
   {

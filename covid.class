@@ -1,0 +1,33 @@
+import javax.swing.JOptionPane;
+
+public class GPA
+{
+  public static void main(String[] args)
+  {
+    String whatTemp;
+    whatTemp = JOptionPane.showInputDialog("What is your temperature? ");
+    String headache;
+    headache = JOptionPane.showInputDialog("Do you have a headache? ");
+    
+    double temperature;
+    temperature = Double.parseDouble(whatTemp);
+    
+    String result;
+    String symbol;
+    
+    if (temperature >= 99.0 || temperature <= 95.0) {
+      result = "not ";
+      symbol = "✗";
+    }
+    if (headache == True) {
+      result = "not ";
+      symbol = "✗";
+    }
+    else {
+      result = "";
+      symbol = "✓";
+    }
+    
+    JOptionPane.showMessageDialog(null, symbol+"You are "+result+"allowed in school today."
+  }
+}

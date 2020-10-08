@@ -28,6 +28,6 @@ public class CovidTest
       symbol = "✓";
     }
     
-    JOptionPane.showMessageDialog(null, symbol+"You are "+result+"allowed in school today."
+    JOptionPane.showMessageDialog(null, symbol+"You are "+result+"allowed in school today.");
   }
 }
